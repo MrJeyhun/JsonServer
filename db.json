@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "firstname": "Jeyhun",
+      "lastname": "Jeyhunzade",
+      "password": "j12345",
+      "favorites": [
+        {
+          "id": 0,
+          "pizzaName": "Marinera",
+          "size": "small",
+          "souce": ["bbq"],
+          "meats": ["pepperoni", "hampork"],
+          "veggies": ["tomatoes", "mozzarella", "spicychillies"]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "firstname": "Ali",
+      "lastname": "Isgenderov",
+      "password": "a12345",
+      "favorites": [
+        {
+          "id": 0,
+          "pizzaName": "Margherita",
+          "size": "medium",
+          "souce": [],
+          "meats": [],
+          "veggies": ["tomatoes", "mozzarella"]
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "firstname": "Leyla",
+      "lastname": "Merdanova",
+      "password": "l12345",
+      "favorites": [
+        {
+          "id": 0,
+          "pizzaName": "Western BBQ",
+          "size": "medium",
+          "souce": ["bbq"],
+          "meats": ["beef"],
+          "veggies": ["mushrooms", "mozzarella"]
+        }
+      ]
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 0,
+      "name": "All The Meats",
+      "small": {
+        "name": "small",
+        "price": 12
+      },
+      "medium": {
+        "name": "medium",
+        "price": 16
+      },
+      "large": {
+        "name": "large",
+        "price": 21
+      },
+      "souce": [],
+      "meats": ["pepperoni", "italiansausage", "beef", "ham"],
+      "veggies": ["mozzarella"]
+    },
+    {
+      "id": 1,
+      "name": "Greek",
+      "small": {
+        "name": "small",
+        "price": 10
+      },
+      "medium": {
+        "name": "medium",
+        "price": 14
+      },
+      "large": {
+        "name": "large",
+        "price": 18
+      },
+      "souce": [],
+      "meats": [],
+      "veggies": ["tomatoes", "olivies", "oregano", "hotpeppers", "mozzarella"]
+    },
+    {
+      "id": 2,
+      "name": "Mexican",
+      "small": {
+        "name": "small",
+        "price": 13
+      },
+      "medium": {
+        "name": "medium",
+        "price": 17
+      },
+      "large": {
+        "name": "large",
+        "price": 22
+      },
+      "souce": [],
+      "meats": ["chicken"],
+      "veggies": [
+        "tomatoes",
+        "mushrooms",
+        "greenpeppers",
+        "jalapenopeppers",
+        "mozzarella"
+      ]
+    }
+  ]
+}
