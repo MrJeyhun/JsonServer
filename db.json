@@ -86,7 +86,7 @@
       },
       "souce": [],
       "meats": [],
-      "veggies": ["tomatoes", "olivies", "oregano", "hotpeppers", "mozzarella"]
+      "veggies": ["tomatoes", "olives", "oregano", "hotpeppers", "mozzarella"]
     },
     {
       "id": 2,
@@ -112,6 +112,92 @@
         "jalapenopeppers",
         "mozzarella"
       ]
+    }
+  ],
+  "souces": [
+    {
+      "id": 0,
+      "souce": "tomato",
+      "price": 2
+    },
+    {
+      "id": 1,
+      "souce": "bbq",
+      "price": 3
+    },
+    {
+      "id": 2,
+      "souce": "extratomato",
+      "price": 4
+    },
+    {
+      "id": 3,
+      "souce": "extrabbq",
+      "price": 5
+    }
+  ],
+  "meats": [
+    {
+      "id": 0,
+      "meat": "beef",
+      "price": 6
+    },
+    {
+      "id": 1,
+      "meat": "pepperoni",
+      "price": 7
+    },
+    {
+      "id": 2,
+      "meat": "hampork",
+      "price": 8
+    },
+    {
+      "id": 3,
+      "meat": "chicken",
+      "price": 5
+    }
+  ],
+  "veggies": [
+    {
+      "id": 0,
+      "veggie": "mozzarella",
+      "price": 3
+    },
+    {
+      "id": 1,
+      "veggie": "pineapples",
+      "price": 5
+    },
+    {
+      "id": 2,
+      "veggie": "olives",
+      "price": 5
+    },
+    {
+      "id": 3,
+      "veggie": "onion",
+      "price": 2
+    },
+    {
+      "id": 4,
+      "veggie": "greenpeppers",
+      "price": 3
+    },
+    {
+      "id": 5,
+      "veggie": "tomatoes",
+      "price": 3
+    },
+    {
+      "id": 6,
+      "veggie": "mushrooms",
+      "price": 5
+    },
+    {
+      "id": 7,
+      "veggie": "spicychillies",
+      "price": 3
     }
   ]
 }
