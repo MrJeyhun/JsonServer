@@ -1,203 +1,379 @@
 {
   "users": [
     {
-      "id": 0,
+      "id": "u1",
       "firstname": "Jeyhun",
       "lastname": "Jeyhunzade",
       "password": "j12345",
       "favorites": [
         {
-          "id": 0,
+          "id": "u1f1",
           "pizzaName": "Marinera",
           "size": "small",
-          "souce": ["bbq"],
-          "meats": ["pepperoni", "hampork"],
-          "veggies": ["tomatoes", "mozzarella", "spicychillies"]
+          "souce": [
+            {
+              "id": "u1fs1",
+              "souce": "bbq",
+              "price": 3
+            }
+          ],
+          "meats": [
+            {
+              "id": "u1fm1",
+              "meat": "pepperoni",
+              "price": 7
+            },
+            {
+              "id": "u1fm2",
+              "meat": "hampork",
+              "price": 8
+            }
+          ],
+          "veggies": [
+            {
+              "id": "u1fv1",
+              "veggie": "tomatoes",
+              "price": 3
+            },
+            {
+              "id": "u1fv2",
+              "veggie": "mozzarella",
+              "price": 3
+            },
+            {
+              "id": "u1fv3",
+              "veggie": "spicychillies",
+              "price": 3
+            }
+          ]
         }
       ]
     },
     {
-      "id": 1,
+      "id": "u2",
       "firstname": "Ali",
       "lastname": "Isgenderov",
       "password": "a12345",
       "favorites": [
         {
-          "id": 0,
+          "id": "u2f1",
           "pizzaName": "Margherita",
           "size": "medium",
           "souce": [],
           "meats": [],
-          "veggies": ["tomatoes", "mozzarella"]
+          "veggies": [
+            {
+              "id": "u2fv1",
+              "veggie": "mozzarella",
+              "price": 3
+            },
+            {
+              "id": "u2fv2",
+              "veggie": "tomatoes",
+              "price": 3
+            }
+          ]
         }
       ]
     },
     {
-      "id": 0,
+      "id": "u3",
       "firstname": "Leyla",
       "lastname": "Merdanova",
       "password": "l12345",
       "favorites": [
         {
-          "id": 0,
+          "id": "u3f1",
           "pizzaName": "Western BBQ",
           "size": "medium",
-          "souce": ["bbq"],
-          "meats": ["beef"],
-          "veggies": ["mushrooms", "mozzarella"]
+          "souce": [
+            {
+              "id": "u3fs1",
+              "souce": "bbq",
+              "price": 3
+            }
+          ],
+          "meats": [
+            {
+              "id": "u3fm1",
+              "meat": "beef",
+              "price": 6
+            }
+          ],
+          "veggies": [
+            {
+              "id": "u3fv1",
+              "veggie": "mozzarella",
+              "price": 3
+            },
+            {
+              "id": "u3fv2",
+              "veggie": "mozzarella",
+              "price": 3
+            }
+          ]
         }
       ]
     }
   ],
   "pizzas": [
     {
-      "id": 0,
+      "id": "p1",
       "name": "All The Meats",
       "small": {
+        "id": "p1sm",
         "name": "small",
         "price": 12
       },
       "medium": {
+        "id": "p1md",
         "name": "medium",
         "price": 16
       },
       "large": {
+        "id": "p1lg",
         "name": "large",
         "price": 21
       },
-      "souce": [],
-      "meats": ["pepperoni", "italiansausage", "beef", "ham"],
-      "veggies": ["mozzarella"]
+      "souce": [
+        {
+          "id": "p1s",
+          "souce": "tomato",
+          "price": 2
+        }
+      ],
+      "meats": [
+        {
+          "id": "p1m1",
+          "meat": "beef",
+          "price": 6
+        },
+        {
+          "id": "p1m2",
+          "meat": "pepperoni",
+          "price": 7
+        },
+        {
+          "id": "p1m3",
+          "meat": "hampork",
+          "price": 8
+        },
+        {
+          "id": "p1m4",
+          "meat": "chicken",
+          "price": 5
+        }
+      ],
+      "veggies": [
+        {
+          "id": "p1v1",
+          "veggie": "mozzarella",
+          "price": 3
+        }
+      ]
     },
     {
-      "id": 1,
+      "id": "p2",
       "name": "Greek",
       "small": {
+        "id": "p2sm",
         "name": "small",
         "price": 10
       },
       "medium": {
+        "id": "p2md",
         "name": "medium",
         "price": 14
       },
       "large": {
+        "id": "p2lg",
         "name": "large",
         "price": 18
       },
       "souce": [],
       "meats": [],
-      "veggies": ["tomatoes", "olives", "oregano", "hotpeppers", "mozzarella"]
+      "veggies": [
+        {
+          "id": "p2v1",
+          "veggie": "tomatoes",
+          "price": 3
+        },
+        {
+          "id": "p2v2",
+          "veggie": "olives",
+          "price": 5
+        },
+        {
+          "id": "p2v3",
+          "veggie": "oregano",
+          "price": 4
+        },
+        {
+          "id": "p2v4",
+          "veggie": "hotpeppers",
+          "price": 2
+        },
+        {
+          "id": "p2v5",
+          "veggie": "mozzarella",
+          "price": 3
+        }
+      ]
     },
     {
-      "id": 2,
+      "id": "p3",
       "name": "Mexican",
       "small": {
+        "id": "p3sm",
         "name": "small",
         "price": 13
       },
       "medium": {
+        "id": "p3md",
         "name": "medium",
         "price": 17
       },
       "large": {
+        "id": "p3lg",
         "name": "large",
         "price": 22
       },
       "souce": [],
-      "meats": ["chicken"],
+      "meats": [
+        {
+          "id": "p3m1",
+          "meat": "chicken",
+          "price": 5
+        }
+      ],
       "veggies": [
-        "tomatoes",
-        "mushrooms",
-        "greenpeppers",
-        "jalapenopeppers",
-        "mozzarella"
+        {
+          "id": "p3v1",
+          "veggie": "tomatoes",
+          "price": 3
+        },
+        {
+          "id": "p3v2",
+          "veggie": "mushrooms",
+          "price": 5
+        },
+        {
+          "id": "p3v3",
+          "veggie": "greenpeppers",
+          "price": 3
+        },
+        {
+          "id": "p3v4",
+          "veggie": "jalapenopeppers",
+          "price": 5
+        },
+        {
+          "id": "p3v5",
+          "veggie": "mozzarella",
+          "price": 3
+        }
       ]
     }
   ],
   "souces": [
     {
-      "id": 0,
+      "id": "s1",
       "souce": "tomato",
       "price": 2
     },
     {
-      "id": 1,
+      "id": "s2",
       "souce": "bbq",
       "price": 3
     },
     {
-      "id": 2,
+      "id": "s3",
       "souce": "extratomato",
       "price": 4
     },
     {
-      "id": 3,
+      "id": "s4",
       "souce": "extrabbq",
       "price": 5
     }
   ],
   "meats": [
     {
-      "id": 0,
+      "id": "m1",
       "meat": "beef",
       "price": 6
     },
     {
-      "id": 1,
+      "id": "m2",
       "meat": "pepperoni",
       "price": 7
     },
     {
-      "id": 2,
+      "id": "m3",
       "meat": "hampork",
       "price": 8
     },
     {
-      "id": 3,
+      "id": "m4",
       "meat": "chicken",
       "price": 5
     }
   ],
   "veggies": [
     {
-      "id": 0,
+      "id": "v1",
       "veggie": "mozzarella",
       "price": 3
     },
     {
-      "id": 1,
+      "id": "v2",
       "veggie": "pineapples",
       "price": 5
     },
     {
-      "id": 2,
+      "id": "v3",
       "veggie": "olives",
       "price": 5
     },
     {
-      "id": 3,
+      "id": "v4",
       "veggie": "onion",
       "price": 2
     },
     {
-      "id": 4,
+      "id": "v5",
       "veggie": "greenpeppers",
       "price": 3
     },
     {
-      "id": 5,
+      "id": "v6",
       "veggie": "tomatoes",
       "price": 3
     },
     {
-      "id": 6,
+      "id": "v7",
       "veggie": "mushrooms",
       "price": 5
     },
     {
-      "id": 7,
+      "id": "v8",
       "veggie": "spicychillies",
       "price": 3
+    },
+    {
+      "id": "v9",
+      "veggie": "hotpeppers",
+      "price": 2
+    },
+    {
+      "id": "v10",
+      "veggie": "oregano",
+      "price": 4
+    },
+    {
+      "id": "v11",
+      "veggie": "jalapenopeppers",
+      "price": 5
     }
   ]
 }
