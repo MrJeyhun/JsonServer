@@ -8,7 +8,7 @@
       "favorites": [
         {
           "id": "u1f1",
-          "pizzaName": "Marinera",
+          "pizzaName": "Vegetarian",
           "size": "small",
           "souce": [
             {
@@ -17,18 +17,7 @@
               "price": 3
             }
           ],
-          "meats": [
-            {
-              "id": "u1fm1",
-              "meat": "pepperoni",
-              "price": 7
-            },
-            {
-              "id": "u1fm2",
-              "meat": "hampork",
-              "price": 8
-            }
-          ],
+          "meats": [],
           "veggies": [
             {
               "id": "u1fv1",
@@ -42,8 +31,13 @@
             },
             {
               "id": "u1fv3",
-              "veggie": "spicychillies",
+              "veggie": "greenpeppers",
               "price": 3
+            },
+            {
+              "id": "u1fv4",
+              "veggie": "mushrooms",
+              "price": 5
             }
           ]
         }
@@ -108,8 +102,8 @@
             },
             {
               "id": "u3fv2",
-              "veggie": "mozzarella",
-              "price": 3
+              "veggie": "mushrooms",
+              "price": 4
             }
           ]
         }
@@ -269,6 +263,132 @@
         },
         {
           "id": "p3v5",
+          "veggie": "mozzarella",
+          "price": 3
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Vegetarian",
+      "small": {
+        "id": "p4sm",
+        "name": "small",
+        "price": 11
+      },
+      "medium": {
+        "id": "p4md",
+        "name": "medium",
+        "price": 15
+      },
+      "large": {
+        "id": "p4lg",
+        "name": "large",
+        "price": 19
+      },
+      "souce": [],
+      "meats": [],
+      "veggies": [
+        {
+          "id": "p4v1",
+          "veggie": "tomatoes",
+          "price": 3
+        },
+        {
+          "id": "p4v2",
+          "veggie": "mushrooms",
+          "price": 5
+        },
+        {
+          "id": "p4v3",
+          "veggie": "greenpeppers",
+          "price": 3
+        },
+        {
+          "id": "p4v5",
+          "veggie": "mozzarella",
+          "price": 3
+        },
+        {
+          "id": "p4v6",
+          "veggie": "olives",
+          "price": 5
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "name": "Margherita",
+      "small": {
+        "id": "p5sm",
+        "name": "small",
+        "price": 8
+      },
+      "medium": {
+        "id": "p5md",
+        "name": "medium",
+        "price": 13
+      },
+      "large": {
+        "id": "p5lg",
+        "name": "large",
+        "price": 16
+      },
+      "souce": [],
+      "meats": [],
+      "veggies": [
+        {
+          "id": "p5v1",
+          "veggie": "tomatoes",
+          "price": 3
+        },
+        {
+          "id": "p5v5",
+          "veggie": "mozzarella",
+          "price": 3
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "name": "Western BBQ",
+      "small": {
+        "id": "p6sm",
+        "name": "small",
+        "price": 10
+      },
+      "medium": {
+        "id": "p6md",
+        "name": "medium",
+        "price": 15
+      },
+      "large": {
+        "id": "p6lg",
+        "name": "large",
+        "price": 19
+      },
+      "souce": [
+        {
+          "id": "p6s1",
+          "souce": "bbq",
+          "price": 3
+        }
+      ],
+      "meats": [
+        {
+          "id": "p6m1",
+          "meat": "beef",
+          "price": 6
+        }
+      ],
+      "veggies": [
+        {
+          "id": "p6v1",
+          "veggie": "mushrooms",
+          "price": 5
+        },
+        {
+          "id": "p6v2",
           "veggie": "mozzarella",
           "price": 3
         }
